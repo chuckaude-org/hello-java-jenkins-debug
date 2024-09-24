@@ -36,7 +36,7 @@ pipeline {
                     polaris_assessment_types: 'SAST,SCA',
                     polaris_application_name: "chuckaude-hello-java",
                     polaris_project_name: "hello-java",
-                    //polaris_branch_name: "$BRANCH_NAME",
+                    polaris_branch_name: "$BRANCH_NAME",
                     polaris_prComment_enabled: true,
                     polaris_reports_sarif_create: true,
                     mark_build_status: 'UNSTABLE',
